@@ -1,0 +1,7 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "maps/rp_richland2026/chrome"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+}

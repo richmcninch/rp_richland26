@@ -1,0 +1,9 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "maps/rp_richland2026/countertop"
+	"$surfaceprop" "plastic"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+	"$envmaptint" "[.3 .3 .3]"
+	"$envmapcontrast" 0.5
+}

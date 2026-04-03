@@ -1,0 +1,8 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "maps/rp_richland2026/poolblue"
+	"$surfaceprop" "concrete"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .80 .80 .80 ]"
+	"$fresnelreflection" "0.25"
+}

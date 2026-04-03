@@ -1,0 +1,8 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "maps/rp_richland2026/sign_nodiving"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2 .2 .2]"
+	"$envmapcontrast" 0.4
+}

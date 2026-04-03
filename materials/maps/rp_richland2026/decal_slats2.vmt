@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "maps/rp_richland2026/decal_slats2"
+    "$decal" 1
+    "$decalscale" 0.25
+    "$translucent" 1
+}
