@@ -1,8 +1,0 @@
-"lightmappedgeneric"
-{
-	"$basetexture" "maps/rp_richland2026/sign_yardsale"
-	"$surfaceprop" "plastic"
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[.2 .2 .2]"
-	"$envmapcontrast" 0.4
-}

@@ -1,0 +1,7 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "maps/rp_richland26/porcelain"
+	"$surfaceprop" "porcelain"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+}

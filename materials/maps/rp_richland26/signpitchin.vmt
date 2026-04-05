@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "maps/rp_richland26/signpitchin"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2 .2 .2]"
+	"$envmapcontrast" 0.4
+}

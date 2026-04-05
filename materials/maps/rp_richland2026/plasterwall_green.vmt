@@ -1,9 +1,0 @@
-"lightmappedgeneric"
-{
-	"$basetexture" "maps/rp_richland2026/plasterwall_green"
-	"$surfaceprop" "plaster"
-	"$bumpmap" "maps/rp_richland2026/plasterwall_normal"
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[.1 .1 .1]"
-	"$envmapcontrast" 1
-}

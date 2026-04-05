@@ -1,0 +1,118 @@
+// rp_richland26 — Custom Soundscapes
+// Engine auto-loads scripts/soundscapes_MAPNAME.txt for the active map.
+//
+// Zones:
+//   rp_richland26.outdoor_street  — ground-level exterior, streets, courtyards
+//   rp_richland26.rooftop         — upper exterior, roof decks, top-floor balconies
+//   rp_richland26.indoor_hallway  — interior corridors, stairwells
+//   rp_richland26.indoor_apartment — interior rooms, quiet spaces
+
+"rp_richland26.outdoor_street"
+{
+	"dsp"	"0"
+
+	// City background hum
+	"playlooping"
+	{
+		"volume"	"0.28,0.36"
+		"pitch"		"98,102"
+		"wave"		"ambient/atmosphere/ambience_base.wav"
+	}
+
+	// Birds
+	"playlooping"
+	{
+		"volume"	"0.38,0.48"
+		"pitch"		"96,104"
+		"wave"		"ambient/creatures/birds_lp_01.wav"
+	}
+
+	// Light wind
+	"playlooping"
+	{
+		"volume"	"0.14,0.20"
+		"pitch"		"97,103"
+		"wave"		"ambient/weather/wind_loop1.wav"
+	}
+
+	// Occasional bird chirp
+	"playrandom"
+	{
+		"time"		"18,55"
+		"volume"	"0.25,0.45"
+		"pitch"		"95,112"
+		"count"		"1"
+		"wave"		")ambient/creatures/birds_lp_01.wav"
+	}
+}
+
+"rp_richland26.rooftop"
+{
+	"dsp"	"0"
+
+	// Stronger wind from height
+	"playlooping"
+	{
+		"volume"	"0.40,0.55"
+		"pitch"		"94,106"
+		"wave"		"ambient/weather/wind_loop1.wav"
+	}
+
+	// Distant city, pushed back
+	"playlooping"
+	{
+		"volume"	"0.18,0.25"
+		"pitch"		"97,103"
+		"wave"		"ambient/atmosphere/ambience_base.wav"
+	}
+
+	// Birds pass overhead
+	"playlooping"
+	{
+		"volume"	"0.22,0.32"
+		"pitch"		"99,105"
+		"wave"		"ambient/creatures/birds_lp_01.wav"
+	}
+}
+
+"rp_richland26.indoor_hallway"
+{
+	"dsp"	"3"
+
+	// Interior room tone
+	"playlooping"
+	{
+		"volume"	"0.22,0.30"
+		"pitch"		"99,101"
+		"wave"		"ambient/atmosphere/storeroom.wav"
+	}
+
+	// Faint outside bleed through the walls
+	"playlooping"
+	{
+		"volume"	"0.08,0.12"
+		"pitch"		"98,102"
+		"wave"		"ambient/atmosphere/ambience_base.wav"
+	}
+}
+
+"rp_richland26.indoor_apartment"
+{
+	"dsp"	"5"
+
+	// Very quiet room tone
+	"playlooping"
+	{
+		"volume"	"0.14,0.20"
+		"pitch"		"99,101"
+		"wave"		"ambient/atmosphere/storeroom.wav"
+	}
+
+	// Barely audible outside world
+	"playlooping"
+	{
+		"volume"	"0.05,0.09"
+		"pitch"		"98,102"
+		"wave"		"ambient/atmosphere/ambience_base.wav"
+	}
+}

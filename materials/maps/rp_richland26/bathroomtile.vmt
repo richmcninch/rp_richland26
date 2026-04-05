@@ -1,0 +1,10 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "maps/rp_richland26/bathroomtile"
+	"$surfaceprop" "tile"
+	"$bumpmap" "maps/rp_richland26/bathroomtile_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[ .80 .80 .80 ]"
+	"$fresnelreflection" "0.25"
+}

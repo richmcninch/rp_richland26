@@ -1,0 +1,20 @@
+"Refract"
+{
+ 	"$refractamount" ".1"
+ 	"$bluramount" "1"
+	"$REFRACTTINT" "{125 140 125}"
+	"$scale" "[1 1]"
+ 	"$normalmap" "dev/water_normal"
+	"$bumpframe" "0"
+	"$envmaptint" "[.01 .01 .01]"
+	"$REFRACTTINTTEXTURE" "maps/rp_richland26/imsohigh"
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+	}
+}

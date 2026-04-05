@@ -1,0 +1,7 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "maps/rp_richland26/art_stgermain"
+	"$decal" 1
+	"$decalscale" 0.25
+	"$translucent" 1
+}
