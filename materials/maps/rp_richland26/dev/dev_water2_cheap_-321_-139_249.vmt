@@ -1,0 +1,30 @@
+"Water"
+{
+	"%compilewater"				"1"
+	"$abovewater"				"1"
+	"$envmap"					"env_cubemap"
+	"$refracttexture"			"_rt_WaterRefraction"
+	"$refracttint"				"[.8 .8 .8]"
+	"$normalmap"				"dev/water_normal"
+	"$surfaceprop"				"water"
+	"$bottommaterial"			"nature/water_canals_waterbeneath_clear"
+	"$bumpframe"				"0"
+	"$fogenable"				"1"
+	"$fogcolor"					"{128 200 255}"
+	"$fogstart"					"1.00"
+	"$fogend"					"400.00"
+	"$cheapwaterstartdistance"	"500"
+	"$cheapwaterenddistance"	"1000"
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"			"$normalmap"
+			"animatedtextureframenumvar"	"$bumpframe"
+			"animatedtextureframerate"		"30.00"
+		}
+		"WaterLOD"
+		{
+		}
+	}
+}
